@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; /* Usando una fuente moderna */;
+}
+body{
+    background-color: #d3d3d3;
+}
+body .tarjetas-usuario{
+    padding-left: 2em;
+}
+.nav-bar{
+    background-color: #000;
+    color: white;
+    height: 100px;
+}
+
+/*----Organizador-------------------------*/
+.organizador{
+    margin: 2em;
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 21px 21px 39px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 21px 21px 39px -13px rgba(0,0,0,0.75);
+    box-shadow: 21px 21px 39px -13px rgba(0,0,0,0.75);
+}
+
+.organizador h1{
+    margin-bottom: 25px;
+}
+
+.dias-disponibles{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.orga-tarjeta{
+    border: 1px solid #000;
+    width: 380px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+.orga-tarjetas{
+    display: flex;
+    align-items: center;
+}
+.nom-tarjeta{
+    width: 350px;
+    padding-bottom: 30px;
+}
+.nom-tarjeta p{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+.barra-dias{
+    height: 20px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.barra-dias .barra{
+    height: 20px;
+    width: 160px;
+    border-radius: 20px;
+    background-color: #E9A43B;
+}
+.barra-dias .barra2{
+    height: 20px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: #28a745;
+}
+
+.deuda{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8px;
+}
+.deuda p{
+    width: auto;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.btn-pagar{
+    height: 30px;
+    width: 100px;
+    background-color: #28a745;
+    border-radius: 14px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.tarjetas-usuario{
+    height: auto;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.tarjeta {
+    width: 350px;
+    height: 200px;
+    background-color: #8c52ff; /* Color principal de la tarjeta */
+    border-radius: 15px;
+    -webkit-box-shadow: 21px 21px 39px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 21px 21px 39px -13px rgba(0,0,0,0.75);
+    box-shadow: 21px 21px 39px -13px rgba(0,0,0,0.75);
+    color: white;
+    position: relative;
+    margin-top: 1em;
+    position: relative;
+}
+
+.info-tarjeta {
+    display: flex;
+    height: 160px;
+    width: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.num-tarjeta {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.datos{
+    text-align: right;
+    padding-right: 10px;
+}
+
+.fecha, .pago {
+    font-size: 1.1em;
+}
+
+.pago {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.btn-agregar{
+        background-color: #28a745;
+        color: white;
+        width: 150px;
+        text-align: center;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s ease;
+        font-size: 18px;
+        padding: 7px;
+        margin-top: 2.5em;
+}
+    .btn-agregar:hover {
+        background-color: #218838; /* Un tono más oscuro de verde al pasar el ratón */
+    }
+.btn-editar{
+    position: absolute;
+    top: 625px;
+    left: 360px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    background-color: white;
+    -webkit-box-shadow: 21px 21px 39px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 21px 21px 39px -13px rgba(0,0,0,0.75);
+    box-shadow: 21px 21px 39px -13px rgba(0,0,0,0.75);
+}
